@@ -2,15 +2,17 @@
 import './App.css';
 
 
-import ItemListContainer from './Componentes/ItemListContainer';
+
 import Navbar from './Componentes/NavBar';
+import ItemDetailContainer from './Componentes/ItemDetailContainer';
 
 
 function App() {
   return (
     <>
     <Navbar />
-    <ItemListContainer texto="Laute" />
+    <ItemDetailContainer />
+    
     </>
   );
  
