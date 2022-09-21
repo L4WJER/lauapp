@@ -1,7 +1,7 @@
 import ItemDetail from '../ItemDetail';
 import React,{useEffect,useState}  from "react";
 const film=
-{id:3,image:"https://i.imgur.com/6AdryIE.png"}
+{id:3,image:"https://i.imgur.com/6AdryIE.png"};
 
 export const ItemDetailContainer = () =>{
   const[data,setData] = useState({});
